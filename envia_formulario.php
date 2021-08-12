@@ -1,7 +1,7 @@
-<?php  
-session_start();
-include 'conexao.php';  
-    $_SESSION["nome"] = $_POST['nome'];
+<<?php 
+include 'conexao.php';
+
+    $nome = $_POST['nome'];
     $sobrenome = $_POST['sobrenome'];
     $email = $_POST['email'];
     $idade = $_POST['idade'];
@@ -19,12 +19,15 @@ include 'conexao.php';
                       values('$nome', '$sobrenome', '$email', '$idade', '$cpf', '$rg', '$estadocivil', '$localizacao', '$profissao', '$sangue', '$pontos')" );
       $conexao -> autocommit(FALSE);
       $conexao->commit();
-    echo 'nego nei';
 
 
-if($_POST['profissao'] = 'ADM'){
-    echo "<SCRIPT LANGUAGE='JavaScript'>
-    window.location.href='retorna_formulario.php';
-    </SCRIPT>";
-}
+      if($_POST['profissao'] == 'Médico'){
+          header("location: retorna_formulario.php");
+      }
+      if($_POST['profissao'] == 'ADM'){
+          header("location: retorna_formulario_ADM.php");
+      }
+      if($_POST['profissao'] == 'Policial'){
+          header("location: retorna_formulario_policial.php");
+      }
 ?>
