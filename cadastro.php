@@ -17,7 +17,7 @@
 
         <form class="formulario" method="POST" action="envia_formulario.php">
             <div class = "titulo">
-                <h1>Cadastro De Usuario</h1>
+                <h1>Cadastro De Usuario2</h1>
             </div>
             <div class="texto-formulario">
                 <div class="nomes">
