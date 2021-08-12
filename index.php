@@ -16,7 +16,9 @@
         <a href="cadastro.php"><button class="bot">Cadastrar Chip</button></a>
         <br>
         <br>
-        <a href="login.php"><button class="bot">Login</button></a>
+        <a href="login.php"><button class="bot">Login</button></a>  
+        
+        
         
     </div>
     
