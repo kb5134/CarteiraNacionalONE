@@ -145,7 +145,7 @@
 
                 
                     
-                    <a href="http://localhost/form-poo/retorna_formulario.php"><button class="botao" type="submit"> Concluido</button></a>
+                    <button class="botao" type="submit"> Concluido</button>
             </div>          
         </form>                     
     </div>
