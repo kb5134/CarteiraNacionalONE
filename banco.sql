@@ -13,3 +13,15 @@ create table cadastro(
     sangue varchar(5) NOT NULL,
     pontos varchar(10) NOT NULL
 );
+
+    drop table teste;
+    create table teste(
+    id varchar(50)
+);
+
+CREATE TABLE sinais (
+  sin_id int(11) NOT NULL,
+  sin_data datetime NOT NULL ,
+  sin_temp float NOT NULL,
+  sin_umid float NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
